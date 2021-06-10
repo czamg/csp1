@@ -15,42 +15,189 @@
 </head>
 <body>
 	
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="#">Czam Gueco</a>
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #507694;">
+	  <a class="navbar-brand" href="#">CG</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	    <div class="navbar-nav">
 	      <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-	      <a class="nav-item nav-link" href="#">About</a>
-	      <a class="nav-item nav-link" href="#">Projects</a>
-	      <a class="nav-item nav-link" href="#">Contact</a>
+	      <a class="nav-item nav-link" href="#About">About</a>
+	      <a class="nav-item nav-link" href="#Projects">Projects</a>
+	      <a class="nav-item nav-link" href="#Contact">Contact</a>
 	    </div>
 	  </div>
 	</nav>
 
+	<div class="jumbotron text-center mt-5">
+	<div class="container">
+	  		<h1 class="display-3">Hello there.</h1>
+	  		<h2 class="lead">I am <strong>Czam</strong>, a web-developer.</h2>
+	 	 	<p>How can I help?</p>
+	  		<p class="lead">
+	   		<a class="btn btn-info btn-md" href="#Contact" role="button">Let's talk</a>
+	 		</p>
+		</div>
     </div>
 	
+	<section>
+	<div class="container-fluid pt-5 mt-3 text-center">
+		<h1 id="About">About Me</h1>
+
+	<div class="container-fluid"> 	
+
+	<div class="row mt-5 mb-5">
+		<div class="col-sm-12 col-md-6 order-2 order-md-1">
+
+			<h4 class="text-justify mt-4">What about me?</h4>
+
+			<p class="text-justify mt-4">Hi, my name is <strong>Czam Gueco</strong>. An introvert. Born in April that makes me an Aries. I can really be passionate when I get to learn and enjoy things. Shifted from Advertising to the Tech Industry. A product of Zuitt. I am new to this industry but I can translate your ideas and imagination from code to an actual webpage. I am very committed to hone my web development skills and be the best version of myself.</p>
+
+			<h4 class="text-justify mt-4">My interests?</h4>
+
+			<p class="text-justify mt-4">In my free time I like to play video games, doing embroidery, and binge-watching series. Sometimes, when I am in the mood, I go to Muay Thai classes.</p>
+		</div>	
+
+		<div class="col-sm-6 col-md-6 order-1 order-md-2">
+			<div class="text-center">
+				<img class="img-fluid mb-4" src="images/image-2.JPG" alt="It's a me" class="img-thumbnail"  height="50%" width="50%">
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
+
+	<section id="Projects">
+		<div class="container-fluid pt-5 mt-3 text-center">
+		<h1>Projects</h1>
+
+		<div class="container-fluid"> 
+		<div class="row">
+			<div class="col-sm-12 col-md-4">
+				
+				<img class="img-fluid mb-4 mt-4" src="images/unlocked.PNG" alt="lock" class="img-thumbnail"  height="30%" width="30%">
+				
+				<h3 class="mb-4">Capstone 1</h3>
+
+				<p class="text-justify ml-4 mr-4">The very first capstone that I made. 
+				It's not that much. It is more of showcasing my hidden talent in HTML, CSS and Bootstrap or let us just say getting familiar with these new skills. 
+				This is still a work in progress. I have a lot to learn. More or so a major update
+				will be done.</p>
+			</div>
+
+			<div class="col-sm-12 col-md-4">
+				<img class="img-fluid mb-4 mt-4" src="images/locked.PNG" alt="lock" class="img-thumbnail"  height="30%" width="30%">
+				<h3 class="mb-4">Capstone 2</h3>
+				<p><strong>I have yet to unlock this skill.</strong></p>
+			</div>
+
+			<div class="col-sm-12 col-md-4">
+				<img class="img-fluid mb-4 mt-4" src="images/locked.PNG" alt="lock" class="img-thumbnail"  height="30%" width="30%">
+				<h3 class="mb-4">Capstone 3</h3>
+				<p><strong>I have yet to unlock this skill.</strong></p>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</section>
+
+	<section>
+		<div class="container-fluid pt-5 mt-3 text-center">
+			<h1 id="Contact">Contact Form</h1>
+
+			<h3 id="contact" class="text-center ml-3 mb-4">Say Hi!</h3>
+			<form>
+				<div class="row">
+						<div class="col-sm-12 col-md-4 text-justify">
+						<div class="form-group" class="col-sm">
+				  		<label for="userName">Full Name</label>
+				  		<input type="text" class="form-control" id="userName" placeholder="Juan Dela Cruz" required>
+						</div>
+
+			  			<div class="form-group" class="col-sm">
+			    		<label for="exampleFormControlInput1">Email address</label>
+			    		<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+			  			</div>
+
+			  			<div class="form-group" class="col-sm">
+			  			  <label for="exampleFormControlTextarea1">Message</label>
+			  			  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+			  			</div>
+
+			  			<div>
+			  			<button type="button" class="btn btn-info">Submit</button>
+			  			</div>
+
+			  			<div class="col-sm-12 col-md-4 col-lg-6">
+			  				<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=santa ana&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:300px!important;height:300px!important;}</style>
+			  				</div>
+			  			</div>
+			  		</div>
+			  </div>
+		</div>
+		</form>	
+	</section>
+
+	<section class="footer-copy" class="container-fluid">
+	<footer class="text-center text-white" style="background-color: #507694;">
+	      <!-- Grid container -->
+	      <div class="container pt-4">
+	        <!-- Section: Social media -->
+	        <section class="mb-4">
+	          <!-- Facebook -->
+	          <a
+	             class="btn btn-link btn-floating btn-lg text-dark m-1"
+	             href="#!"
+	             role="button"
+	             data-mdb-ripple-color="dark"
+	             ><i class="fab fa-facebook-f"></i
+	            ></a>
+
+	          <!-- Twitter -->
+	          <a
+	             class="btn btn-link btn-floating btn-lg text-dark m-1"
+	             href="#!"
+	             role="button"
+	             data-mdb-ripple-color="dark"
+	             ><i class="fab fa-twitter"></i
+	            ></a>
+
+	          <!-- Google -->
+	          <a
+	             class="btn btn-link btn-floating btn-lg text-dark m-1"
+	             href="#!"
+	             role="button"
+	             data-mdb-ripple-color="dark"
+	             ><i class="fab fa-google"></i
+	            ></a>
+
+	          <!-- Instagram -->
+	          <a
+	             class="btn btn-link btn-floating btn-lg text-dark m-1"
+	             href="#https://www.instagram.com/czamg/"
+	             role="button"
+	             data-mdb-ripple-color="dark"
+	             ><i class="fab fa-instagram"></i
+	            ></a>
+
+	        </section>
+	        <!-- Section: Social media -->
+	      </div>
+	      <!-- Grid container -->
+
+	      <!-- Copyright -->
+	      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+	        © 2020 Copyright:
+	        <a class="text-dark" href="https://mdbootstrap.com/">Czam Gueco</a>
+	      </div>
+	      <!-- Copyright -->
+	    </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-	    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+	        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>
