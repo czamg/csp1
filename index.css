@@ -5,19 +5,7 @@
 	}
 	
 
-	#map-outer {
-	    overflow: hidden;
-	    padding-bottom: 40%;
-	    position: relative;
-	    height: 0;
+	#footer	{
+		text-align: center;
+		background-color: #507694;
 	}
-
-	#map-outer iframe {
-	    left: 10px;
-	    top: 10px;
-	    height: 100%;
-	    width: 100%;
-	    position: absolute;
-	}
-
-
