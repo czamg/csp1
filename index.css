@@ -3,6 +3,21 @@
 		background-color: #688DFD;
 		font-family: 'Roboto', sans-serif; ;
 	}
+	
 
+	#map-outer {
+	    overflow: hidden;
+	    padding-bottom: 40%;
+	    position: relative;
+	    height: 0;
+	}
+
+	#map-outer iframe {
+	    left: 10px;
+	    top: 10px;
+	    height: 100%;
+	    width: 100%;
+	    position: absolute;
+	}
 
 
